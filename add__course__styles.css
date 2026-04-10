@@ -173,6 +173,7 @@ body{
     box-shadow: 0 0 20px 1px #191919;
     background-color: #333;
     max-width: 40rem;
+    margin: 0 auto;
 }
 
 .addcourse__buttons{
