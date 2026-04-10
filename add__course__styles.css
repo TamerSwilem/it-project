@@ -203,6 +203,7 @@ body{
 .addcourse__name,
 .addcourse__topic,
 .addcourse__hours,
+.addcourse__time,
 .addcourse__notes{
     display: flex;
     gap: 20px;
@@ -210,6 +211,7 @@ body{
     border: 2px solid #222;
     margin: 4px 0;
     padding: 0 8px;
+    white-space: nowrap;
 }
 
 .addcourse__header{
