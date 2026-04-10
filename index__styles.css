@@ -94,7 +94,7 @@ body{
 }
 .dropdown-menus{
     display: flex;
-    gap: 40px;
+    gap: 35px;
 }
 .dropdown{
     font-family: Ubuntu, Ariel, Times, serif;
