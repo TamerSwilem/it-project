@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Add Course</title>
+  <link rel="stylesheet" href="add__course__styles.css">
+</head>
+<body>
+  <header class="hero">
+    <nav class="nav">
+        <nav class="nav__bar">
+          <div class="left-section">
+              <img class="home-icon" src="images/icons8-ubuntu-96(1).png">
+              <form class="home-searchcontainer">
+                  <input class="home-searchbar" type="text" placeholder="What are you looking for?">
+                      <a href="https://ubuntu.com/">
+                          <img class="search-icon" src="images/Ubuntu-logo-no-wordmark-solid-o-2022.svg">
+                      </a>
+              </form>
+          </div>
+          <div class="right-section">
+            <div class="dropdown-menus">
+              <a class="dropdown dropdown--explore" href="home.html">
+                <h4>Explore&#8964;</h4>
+              </a>
+              <a  class="dropdown dropdown--courses" href="courses.html">
+                <h4>Courses&#8964;</h4>
+              </a>
+              <a class="dropdown dropdown--addcourse" href="add__course.html">
+                <h4>Add Course&#8964;</h4>
+              </a>
+              <a class="dropdown dropdown--contactus" href="contact__us.html">
+                <h4>Contact Us&#8964;</h4>
+              </a>
+            </div>
+              <div class="signlog-in-div">
+                  <button class="signlog-in">
+                      Sign up
+                  </button>
+                  <button class="signlog-in">
+                      Log in
+                  </button>
+              </div>
+
+          </div>
+          <button class="hamburger" id="hamburger">&#9776;</button>
+      </nav>
+    </nav>
+  </header>
+  <form class="addcourse">
+    <div class="addcourse__item">
+      <div class="addcourse__container">
+        <div class="addcourse__flex">
+            <div class="addcourse__buttons">
+                <button class="addcourse__buttons--button">
+                  Save
+                </button>
+                <button class="addcourse__buttons--button">
+                  Clear
+                </button>
+            </div>
+          <div class="addcourse__name">
+            <h2 class="addcourse__header">Name:</h2>
+            <input class="addcourse__input" type="text" placeholder="Math-2">
+          </div>
+          <div class="addcourse__topic">
+             <h2 class="addcourse__header">Topic:</h2>
+            <input class="addcourse__input" type="text" placeholder="Fourier Series">
+
+          </div>
+          <div class="addcourse__hours">
+            <h2 class="addcourse__header">Hours:</h2>
+            <input class="addcourse__input" type="text" placeholder="3 hours">
+
+          </div>
+          <div class="addcourse__notes">
+            <h2 class="addcourse__header">Notes:</h2>
+            <textarea class="addcourse__input" placeholder="Add any notes here..."></textarea>
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+
+</body>
+</html>

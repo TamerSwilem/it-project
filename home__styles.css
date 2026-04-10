@@ -1,0 +1,214 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Ubuntu, Ariel,Times, serif;
+    background-color: #f7f7f7;
+    color: #222;
+    padding-top: 60px;
+}
+.hero{
+    background-color: #222;
+    padding: 100px;
+}
+
+/* HEADER SECTION */
+
+.nav__bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: hsl(0 67% 56%);
+}
+
+/* LEFT SIDE OF HEADER */
+.left-section{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 45%;
+}
+.home-icon{
+    height: 30px;
+}
+
+.home-searchcontainer{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    gap: 10px;
+    background-color: #f3f3f3;
+    border: 2px solid #f3f3f3;
+    transition: 100ms;
+}
+.home-searchbar{
+    width: 100%;
+    font-size: 14px;
+    font-family: Ubuntu, Ariel, Times, serif;
+    color: black;
+    border: none;
+    outline: none;
+    padding: 15px 100px 15px 15px;
+    margin-left: 2px;
+    transition: 100ms;
+}
+.home-searchcontainer,
+.home-searchbar{
+    border-radius: 50px;
+}
+.home-searchcontainer:focus-within,
+.home-searchbar:focus{
+    background-color: white;
+}
+.home-searchcontainer:focus-within{
+    background-color: white;
+    border-color: lightpink;
+    border-width: 2px;
+    outline: none;
+}
+.search-icon{
+    display: block;
+    height: 3rem;
+    padding: 10px;
+}
+
+
+
+
+
+/* RIGHT SIDE OF HEADER */
+.right-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 53%;
+    gap: 20px;
+}
+.dropdown-menus{
+    display: flex;
+    gap: 40px;
+}
+.dropdown{
+    font-family: Ubuntu, Ariel, Times, serif;
+    color: #222222;
+    text-decoration: none;
+    padding: 14px 0;
+}
+.signlog-in-div{
+    display: flex;
+    gap: 20px;
+    margin:0 auto;
+}
+.signlog-in{
+    font-family: Ubuntu, Ariel, Times, serif;
+    padding: 14px 22px;
+    background-color: #123;
+    border: 2px solid rgba(0,0,0,0.05);
+    border-radius: 50px;
+    transition: 100ms;
+    color: hsl(0 95% 62%);
+    text-shadow: 0 0 10px #ff2020;
+    font-weight: bold;
+}
+.signlog-in:hover{
+    font-family: Ubuntu, Ariel, Times, serif;
+    color: white;
+    font-weight: bold;
+    background-color: black;
+    padding: 14px 22px;
+    border: 4px solid lightpink;
+    border-radius: 50px;
+    transition: 100ms;
+}
+
+
+/* HAMBURGER - hidden on desktop */
+
+.hamburger {
+    display: none;
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+/* MOBILE BREAKPOINT */
+@media (max-width: 768px) {
+    .hamburger {
+        display: block;
+        margin: 12px;
+    }
+
+    .right-section {
+        display: none;
+    }
+
+    .left-section{
+        width: 100%;
+    }
+}
+
+
+
+
+/* HERO SECTION */
+
+.hero__title{
+    color: hsl(0 95% 62%);
+}
+
+.hero__discription{
+    color: hsl(0 67% 56%)
+}
+
+/* FEATURES SECTION */
+
+.features{
+    background-color: hsl(0, 40%, 40%);
+}
+
+.features__item{
+    padding: 100px;
+    display: grid;
+    gap: 50px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+.features__container{
+    aspect-ratio: 4/3;
+    background: #222;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 20px 1px #191919;
+}
+
+.features__title{
+
+    padding: 10px 0;
+    font-size: 1.3rem;
+    text-align: center;
+    color: hsl(0 95% 62%);
+    text-shadow: 0 0 10px #ff2020;
+}
+
+.features_description {
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: hsl(0 67% 56%)
+}
+
+/* ADDITIONAL */
+.dropdown--explore{
+    color: #f3f3f3;
+}
+
