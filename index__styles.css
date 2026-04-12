@@ -155,9 +155,6 @@ body{
     .left-section{
         width: 100%;
     }
-    .features__item {
-        padding: 30px;
-    }
 }
 
 
@@ -208,6 +205,13 @@ body{
     font-size: 1rem;
     font-weight: 500;
     color: hsl(0 67% 56%)
+}
+
+@media (max-width: 768px) {
+    .hero,
+    .features__item {
+        padding: 30px;
+    }
 }
 
 /* ADDITIONAL */
