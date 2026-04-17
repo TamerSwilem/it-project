@@ -1,0 +1,18 @@
+.middle-1-image {
+    /* 1. Fix the container size */
+    width: 110%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('images/group.jpg');
+    background-repeat: no-repeat;
+    background-position: right;
+
+    /* This replaces the 10000px. It fits the image perfectly to the div */
+    background-size: cover;
+
+    /* 3. Kill the horizontal scroll for good */
+    overflow: hidden;
+}
+
+

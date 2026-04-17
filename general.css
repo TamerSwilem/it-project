@@ -1,0 +1,9 @@
+body{
+    margin: 0;
+    background: linear-gradient(black, white);
+    height: 100vh;
+ }
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}

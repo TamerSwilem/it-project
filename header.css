@@ -1,0 +1,105 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+}
+
+/* LEFT SIDE OF HEADER */
+.left-section{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 45%;
+}
+.home-icon{
+    height: 30px;
+}
+
+.home-searchcontainer{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    gap: 10px;
+    background-color: #f3f3f3;
+    border: 2px solid #f3f3f3;
+    transition: 100ms;
+}
+.home-searchbar{
+    width: 100%;
+    font-size: 14px;
+    font-family: Ubuntu;
+    color: black;
+    border: none;
+    outline: none;
+    padding: 15px 100px 15px 15px;
+    margin-left: 2px;
+    transition: 100ms;
+}
+.home-searchcontainer,
+.home-searchbar{
+    border-radius: 50px;
+}
+.home-searchcontainer:focus-within,
+.home-searchbar:focus{
+    background-color: white;
+}
+.home-searchcontainer:focus-within{
+    background-color: white;
+    border-color: lightpink;
+    border-width: 2px;
+    outline: none;
+}
+.search-icon{
+    display: block;
+    height: 30px;
+    padding: 10px;
+}
+
+
+
+
+
+/* RIGHT SIDE OF HEADER */
+.right-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 53%;
+    gap: 20px;
+}
+.dropdown-menus{
+    display: flex;
+    gap: 40px;
+}
+.dropdown{
+    font-family: Ubuntu;
+}
+.signlog-in-div{
+    display: flex;
+    gap: 20px;
+    margin:0 auto;
+}
+.signlog-in{
+    font-family: Ubuntu;
+    padding: 14px 22px;
+    background-color: #f3f3f3;
+    border: 2px solid rgba(0,0,0,0.05);
+    border-radius: 50px;
+    transition: 100ms;
+}
+.signlog-in:hover{
+    font-family: Ubuntu;
+    color: white;
+    font-weight: bold;
+    background-color: black;
+    padding: 14px 22px;
+    border: 4px solid lightpink;
+    border-radius: 50px;
+    transition: 100ms;
+}
